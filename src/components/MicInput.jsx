@@ -1,7 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react'
 import SpeechRecognition, { useSpeechRecognition } from 'react-speech-recognition';
-// import { config } from "dotenv";
-// config();
 import OpenAI from "openai";
 
 function MicInput() {
