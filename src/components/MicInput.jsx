@@ -39,7 +39,7 @@ function MicInput() {
 
     const startListening = () => SpeechRecognition.startListening({ continuous:true, language:"en-IN"})
     const openaiClient = new OpenAI({
-        apiKey: "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",
+        apiKey: "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",
         dangerouslyAllowBrowser: true
     });
 
